@@ -5,10 +5,11 @@ This project is about my going deeper in JS by backing up to the beginning now t
 ## Set up
 
 You will need:  
-[git](https://git-scm.com/);  
-[typescript](https://www.typescriptlang.org/);  
-[node package manager](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/lang/en/);  
-(I do not know the benefits or problems with using npm vs. yarn, yet. I like Yarn because it seems faster & the messages are more clear. npm is better at keeping you aware of dependency issues - missing, out-of-date, incompatible dependencies).
+[Git](https://git-scm.com/);  
+[TypeScript](https://www.typescriptlang.org/);  
+[Node Package Manager](https://www.npmjs.com/get-npm) (NPM) or [Yarn](https://yarnpkg.com/lang/en/);
+
+I do not know the benefits or problems with using NPM vs. yarn, yet. I like Yarn because it seems faster & the messages are more clear. NPM is better at keeping you aware of dependency issues - missing, out-of-date, incompatible dependencies.
 
 Because this is a project for practicing project set up, among other things, I'm going to suggest that you NOT clone/fork/what-have-you. Build it from scratch. I'll give you the commands though. (There are probably slicker ways of doing this, but I'm trying to reinforce my own understanding & muscle memory, so . . . )
 
@@ -51,4 +52,4 @@ yarn.lock
 /src/**.js
 ```
 
-Learn about [jest](https://jestjs.io/) for testing. I didn't research the various testing packages very deeply. Jest just seemed better suited to getting up and running with TypeScript.
+Learn about [Jest](https://jestjs.io/) for testing. I didn't research the various testing packages very deeply. Jest just seemed better suited to getting up and running with TypeScript.
