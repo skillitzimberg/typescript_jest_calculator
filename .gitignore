@@ -1,0 +1,7 @@
+# DIRECTORIES
+node_modules/
+
+# FILES
+package-lock.json
+yarn.lock
+/src/**.js

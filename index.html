@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JS Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./src/styles/app.css">
+</head>
+
+<body>
+  <section id="input">
+    <input type="number" id="user-input">
+  </section>
+
+  <section id="operations">
+    <button id="btn-plus">+</button>
+    <button id="btn-minus">-</button>
+    <button id="btn-multiply">x</button>
+    <button id="btn-divide">÷</button>
+  </section>
+
+  <section id="keypad">
+    <button class="digit" id="1">1</button>
+    <button class="digit" id="2">2</button>
+    <button class="digit" id="3">3</button>
+    <button class="digit" id="4">4</button>
+    <button class="digit" id="5">5</button>
+    <button class="digit" id="6">6</button>
+    <button class="digit" id="7">7</button>
+    <button class="digit" id="8">8</button>
+    <button class="digit" id="9">9</button>
+    <button class="digit" id="0">0</button>
+  </section>
+
+  <section id="output">
+    <p id="calculation"></p>
+    <p> Result: <span id="result"></span></p>
+  </section>
+
+  <script src="src/vendor.js"></script>
+  <script src="src/app.js"></script>
+</body>
+
+</html>
